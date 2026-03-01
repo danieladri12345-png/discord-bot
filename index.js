@@ -6,8 +6,6 @@ const {
   Events,
 } = require("discord.js");
 
-const keepAlive = require("./keep_alive.js");
-
 // ===================== CONFIG =====================
 
 const GENERAL_CHANNEL_ID = "PON_AQUI_ID_GENERAL";
