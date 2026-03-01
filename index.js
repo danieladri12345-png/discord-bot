@@ -278,8 +278,6 @@ client.on(Events.InteractionCreate, async (interaction) => {
 
 // ===================== ABAJO DEL TODO (RUN / LOGIN) =====================
 
-keepAlive(); // 🔥 esto mantiene el server vivo
-
 const botToken = process.env.DISCORD_BOT_TOKEN;
 
 if (!botToken) {
